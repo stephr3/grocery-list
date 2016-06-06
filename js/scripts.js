@@ -7,8 +7,7 @@ $(function(){
       var userInput = $("#" + blank).val().toUpperCase();
       groceryList.push(userInput);
     });
-    groceryList.sort();
-    groceryList.forEach(function(item){
+    groceryList.sort().forEach(function(item){
       $(".result ul").append("<li>" + item + "</li>");
     });
     $(".blanks").hide();
