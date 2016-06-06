@@ -15,5 +15,8 @@ $(function(){
     $(".result ul").append("<li>" + groceryList[1] + "</li>");
     $(".result ul").append("<li>" + groceryList[2] + "</li>");
     $(".result ul").append("<li>" + groceryList[3] + "</li>");
+
+    $(".blanks").hide();
+
   });
 });
